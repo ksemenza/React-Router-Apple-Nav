@@ -5,6 +5,8 @@ import styled from "styled-components";
 
 const WrapNav = styled.div `
 display:flex;
+justify-content:space-between;
+
 margin: 0 auto;
 background-color: #B0C4DE;
 padding: 5px 25px;
@@ -23,6 +25,8 @@ padding: 0 7px;
 
 const CompleteWrap = styled.div `
 display:flex;
+flex-direction:column;
+
 `
 
 
